@@ -1,0 +1,27 @@
+{
+  "name": "gateway/customer",
+  "description": "The Call Center Gateway Customer Package.",
+  "license": "MIT",
+  "homepage": "https://djgoulart.com.br",
+  "support": {
+    "issues": "https://github.com/diego-goulart/gateway-customer/issues"
+  },
+  "authors": [
+    {
+      "name": "Diego Jose Goulart",
+      "email": "diego@djgoulart.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gateway\\Customer\\": ""
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
